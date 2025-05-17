@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamid Sahraye - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- this is the header section -->
+        <h1>Hamid Sahraye</h1> 
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">My Education</a>
+            <a href="#projects">My Projects</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="profile-img-container">
+                <img src="images/IMG_7505.jpeg" class="profile-img" alt="Your Name's profile picture">
+            </div>
+            
+            <!-- About me section -->
+            <h2>About Me</h2>
+            <p>I'm Hamid Sahraye; A student, and a Co-founder with a deep passion for artificial intelligence, enterprise application development, and knowledge sharing. My goal is to master every phase of the Software Development Life Cycle (SDLC) and apply that expertise to build innovative solutions. Beyond my professional journey, I am committed to giving back to my community by sharing my knowledge and empowering others in the tech space.</p>
+            <h3>My School</h3>
+            <div class="school-logo-container">
+                <img src="images/San-Francisco-State-University.jpeg" class="SFSU-logo"  alt="SFSU" width="400" height="200">
+            </div>
+            <p>San Francisco State University.</p>
+            <h4>My Home-town</h4>
+            <div class="hometown-img-container">
+                <img src="images/Alameda-sunset.jpeg" class="hometown-img" alt="Alameda sunset" width="400" height="200">
+            </div>
+            <p>Alameda California</p>
+        </section>
+        
+        <!-- Education section -->
+        <section id="education" class="education-list">
+            <h4>Education</h4>
+            <ul class="education-list">
+                <li>Bachelors of Science | San Francisco State University | Expected Graduation: 2026</li>
+                <li>Associates of Mathematics | College of Alameda</li>
+            </ul>
+            <table style="width: 100%; border: 1px solid #ddd;">
+                <thead>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Grades</th>
+                        <th>Achievements</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UI/UX Specialization | California Institute of Arts</td>
+                        <td>Honor-Student</td>
+                        <td>Created enterprise level UI/UX prototypes to acquire industry best practices </td>
+                    </tr>
+                    <tr>
+                        <td>Cybersecurity | Facebook</td>
+                        <td>A</td>
+                        <td>Contributed in pentesting projects, competed in capture the flag competitions, and ranked 8th in the bay-area CTF competitions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Experience section -->
+        <section id="experience" class="experience-list">
+            <h5>Experience</h5>
+            <ol>
+                <li>Desktop Support | Bank of the West Paribas</li>
+                <li>Desktop Support | San Francisco Int'l Airport</li>
+                <li>Desktop Support | BMO capital Bank</li>
+            </ol>
+            <table style="width: 100%; border: 1px solid #ddd;">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Role</th>
+                        <th>Duration</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bank of the West Paribas</td>
+                        <td>Desktop Support</td>
+                        <td>2022-2024</td>
+                        <td>Provided rapid technical assistance for Microsoft Windows, CISCO networking, and various platforms (Google G-Suite).</td>
+                    </tr>
+                    <tr>
+                        <td>San Francisco Int'l Airport</td>
+                        <td>Desktop Support</td>
+                        <td>2020-2022</td>
+                        <td>Provided technical support and troubleshooting for airport staff and passengers, installing/configuring laptops, printers, and thermal printers, resolving hardware/software issues.</td>
+                    </tr>
+                    <tr>
+                        <td>BMO capital Bank</td>
+                        <td>Desktop Support</td>
+                        <td>2018-2020</td>
+                        <td>Provided comprehensive technical support for BMO Capital Bank, managing installation, configuration, and troubleshooting of desktops, laptops, printers, and peripherals.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Projects section -->
+        <section id="projects" class="projects-list">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>JavaScript Calculator</h3>
+                    <img src="images/calculator-preview.jpeg" alt="Calculator Preview" class="project-image" width="50" height="50"> 
+                    <p>A fully functional iOS-style calculator built with vanilla JavaScript. Features include basic arithmetic operations, keyboard support, and responsive design.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="calculator.html" class="project-link">View Calculator</a>
+                </article>
+                
+                <article class="project-card">
+                    <h3>Group J Recipe App</h3>
+                    <img src="images/recipe-app-preview.jpeg" alt="Recipe App Preview" class="project-image" width="50" height="50">
+                    <p>A collaborative full-stack recipe management application built with Node.js, Express, and MongoDB. Features include user authentication, recipe CRUD operations, and responsive design.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Pug</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="https://github.com/rwrftr/groupJRecipeApp" class="project-link">View Project</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <!-- form section -->
+    <footer>
+        <div class="contact-form">
+            <section id="contact">
+                <h2>Contact Information</h2> 
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Enter Your Name">
+                        <input type="email" name="email" placeholder="Enter Your Email">
+                        <input type="text" name="message" placeholder="Enter Your Message">
+                    </div> 
+                    <button class="submit-btn" type="submit">Submit</button>
+                </form> 
+            </section>
+        </div>
+        <!-- Location section -->
+        <div class="alameda-map">
+            <section id="location">
+                <h2>Location</h2> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0000000000005!2d-122.2416366846825!3d37.76520697975969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1f1f8e1b1d%3A0x7b1b1b1b1b1b1b1b!2sSan%20Francisco%20State%20University!5e0!3m2!1sen!2sus!4v1633666820003!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+        
+        <!-- Navigation section -->
+        <nav>
+            <a href="#education">Education</a><br>
+            <a href="#experience">Experience</a><br>
+            <a href="#projects">Projects</a><br>
+        </nav>
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>

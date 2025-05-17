@@ -1,0 +1,294 @@
+/* Setting up CSS variables for consistent styling throughout my project */
+:root {
+    --primary-color: #a2aeae;
+    --secondary-color: #75458d;
+    --text-color: black;
+    --border-radius: 10px;
+    --padding: 20px;
+    --margin: 20px;
+    --font-family: Arial, sans-serif;
+    --heading-font-size: 2em;
+    --subheading-font-size: 1.5em;
+    --body-font-size: 1em;
+}
+
+/* Styling the box element to have consistent dimensions and alignment */
+.box {
+    /* Setting the width and centering the box */
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    /* Adding padding and border */
+    padding: 20px; /* Corrected padding */
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* styles for the body, background color, and padding */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--primary-color);
+    margin: 0; /* Removing default margin */
+    padding: var(--padding);
+}
+
+/* Centering all headings and applying consistent margin */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: var(--margin) 0; /* Adjusting margin as needed */
+}
+
+/* Specific font size for the main heading */
+h1 {
+    font-size: var(--heading-font-size);
+}
+
+/* Specific font size for subheadings */
+h2, h3, h4, h5, h6 {
+    font-size: var(--subheading-font-size);
+}
+
+/* Centering the navigation and adding bottom margin */
+nav {
+    text-align: center;
+    margin-bottom: var(--margin); /* Adjusting margin as needed */
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Centering the profile image container and adding padding */
+.profile-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjusting height as needed */
+    padding: var(--padding) 0; /* Adding padding to create space around the image */
+}
+
+/* Styling the profile image with rounded corners and responsive width */
+.profile-img {
+    border-radius: 50%;
+    width: 50%;
+    max-width: 150px; 
+}
+
+/* Centering text in the about section and adding padding */
+#about p {
+    text-align: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+/* Centering the school logo container and adding padding */
+.school-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjusting height as needed */
+    padding: var(--padding) 0; /* Adding padding to create space around the image */
+}
+
+/* Styling the school logo with responsive width */
+.SFSU-logo {
+    width: 50%;
+    max-width: 350px; 
+}
+
+/* Centering the hometown image container and adding padding */
+.hometown-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjusting height as needed */
+    padding: var(--padding) 0; /* Adding padding to create space around the image */
+}
+
+/* Styling the hometown image with responsive width */
+.home-town-img {
+    width: 100%;
+    max-width: 350px; 
+}
+
+/* Centering text in the education and experience lists */
+.education-list, .experience-list {
+    text-align: center;
+}
+
+/* Centering text in the projects list and removing default list styling */
+.projects-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    list-style: none; /* Removing default list styling */
+    margin: 0 auto; /* Centering the list */
+}
+
+/* Centering text in the contact form and adding padding */
+.contact-form {
+    text-align: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+/* Centering the Alameda map container and removing default list styling */
+.alameda-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    list-style: none; /* Removing default list styling */
+    margin: 0 auto; /* Centering the list */
+}
+
+/* Styling the submit button with consistent colors, padding, and margin */
+.submit-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    margin: var(--margin) 0;
+    font-size: var(--body-font-size);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding transition for hover effect */
+}
+
+/* Changing background color on hover for the submit button */
+.submit-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+    }
+    .profile-img, .SFSU-logo, .home-town-img {
+        width: 70%;
+    }
+    main {
+        padding: 1rem;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 95%;
+    }
+    .profile-img, .SFSU-logo, .home-town-img {
+        width: 90%;
+    }
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+/* Project grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: rgb(255, 209, 209);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+.project-card p {
+    padding: 0 1rem;
+    color: #666;
+}
+
+.project-tech {
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.project-tech span {
+    background: #f0f0f0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.project-link {
+    display: block;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background: #333;
+}
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}

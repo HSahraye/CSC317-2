@@ -1,105 +1,94 @@
-# Assignment 4 Submission
-
 ## Student Information
 - **Name:** Hamid Sahraye
 - **Course:** CSC317
 - **Assignment:** Final Project - Portfolio Integration
+- **Submission Date:** May 19, 2024
 
-## Implementation Details
+## Overview
+This submission represents the integration of my group project (Assignment 5 - Recipe App) into my personal portfolio website. The portfolio showcases my work throughout the semester, including the JavaScript Calculator (Assignment 4) and the collaborative Recipe App project. 
 
-### Previous Implementations
-The calculator was implemented using vanilla JavaScript, HTML, and CSS. Key features include:
+I had to create a new repository for the final assignment because I somehow restructured everything in my original repository which made everything completely unorganized. 
 
-1. **Basic Operations**
-   - Addition (+)
-   - Subtraction (-)
-   - Multiplication (*)
-   - Division (/)
+My original GitHub Repository link with All my Projects from this semester: (https://github.com/HSahraye/CSC317.git)
 
-2. **User Interface**
-   - iOS-style design
-   - Responsive layout
-   - Clear visual feedback for button presses
+The new repository I created to make the Final Assignment organized for the grader, professor, and Job interviews.  
 
-3. **Functionality**
-   - Real-time calculation
-   - Error handling for division by zero
-   - Clear (C) and All Clear (AC) functions
-   - Keyboard support for number input and operations
+## Portfolio Integration
 
-### Group Project Integration (Assignment 5)
-The Recipe App project was a collaborative effort that demonstrated the power of team development and full-stack web applications. Key learnings include:
+### Recipe App Integration
+- Successfully integrated the Recipe App as a featured project in the portfolio
+- Created a dedicated project page (recipe-app.html) with:
+  - Detailed project description
+  - Key features and technologies used
+  - Setup instructions for local development
+  - Links to source code and documentation
+  - Screenshots and visual documentation
 
-1. **Collaborative Development**
-   - Working with Git in a team environment
-   - Code review and pull request processes
-   - Task distribution and project management
+### GitHub Pages Deployment
+- Portfolio is published to GitHub Pages at: https://hsahraye.github.io/CSC317-2/
+- All internal links are verified and working correctly
+- Responsive design tested across multiple devices and browsers:
+  - Desktop (Chrome, Firefox, Safari)
+  - Mobile (iOS Safari, Android Chrome)
+  - Tablet (iPad Safari)
 
-2. **Technical Skills**
-   - Full-stack development with Node.js and Express
-   - Database management with MongoDB
-   - Template engine usage (Pug)
-   - User authentication implementation
-   - RESTful API design
+### Technical Learning
+- Gained hands-on experience with Node.js and Express.js
+- Learned to work with MySQL databases and implement user authentication
+- Improved understanding of template engines (Pug)
+- Enhanced CSS skills through responsive design
+- Practiced Git version control in a team setting
 
-3. **Project Architecture**
-   - MVC pattern implementation
-   - Middleware usage for authentication
-   - Static file serving
-   - Environment configuration management
+### Collaboration Skills
+- Learned effective communication of technical ideas
+- Developed code review and feedback skills
+- Gained experience in project planning and task distribution
+- Improved ability to resolve merge conflicts
 
-### Integration Process
-- Successfully integrated both the calculator and recipe app projects
-- Maintained consistent styling across all portfolio components
-- Ensured responsive design across all sections
-- Verified cross-browser compatibility
-- Implemented clear navigation between projects
+### Challenges and Solutions
+- Integrated different components of the application
+- Handled merge conflicts and maintained code consistency
+- Developed testing and debugging strategies
+- Implemented responsive design across devices
 
-## Testing Performed
+### Personal Growth
+- Improved time management in team settings
+- Enhanced problem-solving skills
+- Gained confidence in full-stack development
+- Learned to balance individual and team responsibilities
 
-### Calculator Testing
-1. **Basic Operations**
-   - Tested all arithmetic operations with positive numbers
-   - Verified decimal point functionality
-   - Checked negative number handling
+## Code Quality
+- Consistent code formatting throughout
+- Proper HTML5 semantic structure
+- Responsive CSS using modern techniques
+- Well-documented JavaScript functions
+- Clean and maintainable codebase
 
-2. **Error Handling**
-   - Tested division by zero
-   - Verified handling of invalid operations
-   - Checked overflow scenarios
+## Testing
+1. Portfolio Testing
+   - Verified all internal links
+   - Tested responsive design
+   - Checked image loading
+   - Validated form functionality
 
-3. **User Interface**
-   - Verified button responsiveness
-   - Tested keyboard input functionality
-   - Checked display updates
+2. Calculator Testing
+   - Tested all arithmetic operations
+   - Verified keyboard support
+   - Checked error handling
+   - Tested responsive design
 
-### Portfolio Testing
-1. **Responsiveness**
-   - Tested on different screen sizes
-   - Verified image scaling
-   - Checked navigation functionality
+3. Recipe App Integration
+   - Verified project links
+   - Tested documentation access
+   - Checked image loading
+   - Validated setup instructions
 
-2. **Links and Navigation**
-   - Verified all internal links
-   - Tested project links
-   - Checked image loading
+## Future Improvements
+1. Add more interactive elements to the portfolio
+2. Implement dark mode support
+3. Add more project showcases
+4. Enhance mobile responsiveness
+5. Add loading animations
 
-### Portfolio Integration Testing
-1. **Cross-browser Testing**
-   - Tested on Chrome, Firefox, and Safari
-   - Verified mobile responsiveness
-   - Checked all navigation links
-
-2. **Project Links**
-   - Verified all project links are functional
-   - Tested navigation between portfolio sections
-   - Confirmed GitHub repository links
-
-## Known Issues
-- None at present
-
-## Additional Notes
-- Portfolio now showcases both individual and group project work
-- All code is original and properly attributed
-- Implemented consistent design language across projects
-- Ensured accessibility standards are met 
+## Conclusion
+This final project successfully demonstrates the integration of my group work into a professional portfolio we have been working on through-out the semester. All of the previous projects leading upto this project has been extremely rewarding. The portfolio serves as a comprehensive showcase of my skills and projects from I have gained from CSC317.
